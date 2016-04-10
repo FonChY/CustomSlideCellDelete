@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B11905DA1CB9E9AA00DBE07A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B11905D91CB9E9AA00DBE07A /* main.m */; };
+		B11905DD1CB9E9AA00DBE07A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B11905DC1CB9E9AA00DBE07A /* AppDelegate.m */; };
+		B11905E31CB9E9AA00DBE07A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B11905E11CB9E9AA00DBE07A /* Main.storyboard */; };
+		B11905E51CB9E9AA00DBE07A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B11905E41CB9E9AA00DBE07A /* Assets.xcassets */; };
+		B11905E81CB9E9AA00DBE07A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B11905E61CB9E9AA00DBE07A /* LaunchScreen.storyboard */; };
+		B1C44F251CB9EA9500F16DB1 /* FYTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C44F241CB9EA9500F16DB1 /* FYTableViewController.m */; };
+		B1C44F281CB9EAFA00F16DB1 /* FYTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C44F271CB9EAFA00F16DB1 /* FYTableViewCell.m */; };
+		B1C44F331CB9EB3F00F16DB1 /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C44F2B1CB9EB3F00F16DB1 /* ALView+PureLayout.m */; };
+		B1C44F341CB9EB3F00F16DB1 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C44F2D1CB9EB3F00F16DB1 /* NSArray+PureLayout.m */; };
+		B1C44F351CB9EB3F00F16DB1 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C44F2F1CB9EB3F00F16DB1 /* NSLayoutConstraint+PureLayout.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B11905D51CB9E9A900DBE07A /* 自定义cell上滑动删除按钮.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "自定义cell上滑动删除按钮.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B11905D91CB9E9AA00DBE07A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B11905DB1CB9E9AA00DBE07A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B11905DC1CB9E9AA00DBE07A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B11905E21CB9E9AA00DBE07A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B11905E41CB9E9AA00DBE07A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B11905E71CB9E9AA00DBE07A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B11905E91CB9E9AA00DBE07A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1C44F231CB9EA9500F16DB1 /* FYTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYTableViewController.h; sourceTree = "<group>"; };
+		B1C44F241CB9EA9500F16DB1 /* FYTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYTableViewController.m; sourceTree = "<group>"; };
+		B1C44F261CB9EAFA00F16DB1 /* FYTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYTableViewCell.h; sourceTree = "<group>"; };
+		B1C44F271CB9EAFA00F16DB1 /* FYTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYTableViewCell.m; sourceTree = "<group>"; };
+		B1C44F2A1CB9EB3F00F16DB1 /* ALView+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALView+PureLayout.h"; sourceTree = "<group>"; };
+		B1C44F2B1CB9EB3F00F16DB1 /* ALView+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALView+PureLayout.m"; sourceTree = "<group>"; };
+		B1C44F2C1CB9EB3F00F16DB1 /* NSArray+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		B1C44F2D1CB9EB3F00F16DB1 /* NSArray+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		B1C44F2E1CB9EB3F00F16DB1 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		B1C44F2F1CB9EB3F00F16DB1 /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		B1C44F301CB9EB3F00F16DB1 /* PureLayout+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PureLayout+Internal.h"; sourceTree = "<group>"; };
+		B1C44F311CB9EB3F00F16DB1 /* PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayout.h; sourceTree = "<group>"; };
+		B1C44F321CB9EB3F00F16DB1 /* PureLayoutDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayoutDefines.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B11905D21CB9E9A900DBE07A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B11905CC1CB9E9A900DBE07A = {
+			isa = PBXGroup;
+			children = (
+				B11905D71CB9E9A900DBE07A /* 自定义cell上滑动删除按钮 */,
+				B11905D61CB9E9A900DBE07A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B11905D61CB9E9A900DBE07A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B11905D51CB9E9A900DBE07A /* 自定义cell上滑动删除按钮.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B11905D71CB9E9A900DBE07A /* 自定义cell上滑动删除按钮 */ = {
+			isa = PBXGroup;
+			children = (
+				B1C44F291CB9EB3F00F16DB1 /* PureLayout */,
+				B11905DB1CB9E9AA00DBE07A /* AppDelegate.h */,
+				B11905DC1CB9E9AA00DBE07A /* AppDelegate.m */,
+				B1C44F231CB9EA9500F16DB1 /* FYTableViewController.h */,
+				B1C44F241CB9EA9500F16DB1 /* FYTableViewController.m */,
+				B1C44F261CB9EAFA00F16DB1 /* FYTableViewCell.h */,
+				B1C44F271CB9EAFA00F16DB1 /* FYTableViewCell.m */,
+				B11905E11CB9E9AA00DBE07A /* Main.storyboard */,
+				B11905E41CB9E9AA00DBE07A /* Assets.xcassets */,
+				B11905E61CB9E9AA00DBE07A /* LaunchScreen.storyboard */,
+				B11905E91CB9E9AA00DBE07A /* Info.plist */,
+				B11905D81CB9E9AA00DBE07A /* Supporting Files */,
+			);
+			path = "自定义cell上滑动删除按钮";
+			sourceTree = "<group>";
+		};
+		B11905D81CB9E9AA00DBE07A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B11905D91CB9E9AA00DBE07A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B1C44F291CB9EB3F00F16DB1 /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				B1C44F2A1CB9EB3F00F16DB1 /* ALView+PureLayout.h */,
+				B1C44F2B1CB9EB3F00F16DB1 /* ALView+PureLayout.m */,
+				B1C44F2C1CB9EB3F00F16DB1 /* NSArray+PureLayout.h */,
+				B1C44F2D1CB9EB3F00F16DB1 /* NSArray+PureLayout.m */,
+				B1C44F2E1CB9EB3F00F16DB1 /* NSLayoutConstraint+PureLayout.h */,
+				B1C44F2F1CB9EB3F00F16DB1 /* NSLayoutConstraint+PureLayout.m */,
+				B1C44F301CB9EB3F00F16DB1 /* PureLayout+Internal.h */,
+				B1C44F311CB9EB3F00F16DB1 /* PureLayout.h */,
+				B1C44F321CB9EB3F00F16DB1 /* PureLayoutDefines.h */,
+			);
+			path = PureLayout;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B11905D41CB9E9A900DBE07A /* 自定义cell上滑动删除按钮 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B11905EC1CB9E9AA00DBE07A /* Build configuration list for PBXNativeTarget "自定义cell上滑动删除按钮" */;
+			buildPhases = (
+				B11905D11CB9E9A900DBE07A /* Sources */,
+				B11905D21CB9E9A900DBE07A /* Frameworks */,
+				B11905D31CB9E9A900DBE07A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "自定义cell上滑动删除按钮";
+			productName = "自定义cell上滑动删除按钮";
+			productReference = B11905D51CB9E9A900DBE07A /* 自定义cell上滑动删除按钮.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B11905CD1CB9E9A900DBE07A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FY;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ChinaPan;
+				TargetAttributes = {
+					B11905D41CB9E9A900DBE07A = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = B11905D01CB9E9A900DBE07A /* Build configuration list for PBXProject "自定义cell上滑动删除按钮" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B11905CC1CB9E9A900DBE07A;
+			productRefGroup = B11905D61CB9E9A900DBE07A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B11905D41CB9E9A900DBE07A /* 自定义cell上滑动删除按钮 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B11905D31CB9E9A900DBE07A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B11905E81CB9E9AA00DBE07A /* LaunchScreen.storyboard in Resources */,
+				B11905E51CB9E9AA00DBE07A /* Assets.xcassets in Resources */,
+				B11905E31CB9E9AA00DBE07A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B11905D11CB9E9A900DBE07A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1C44F351CB9EB3F00F16DB1 /* NSLayoutConstraint+PureLayout.m in Sources */,
+				B11905DD1CB9E9AA00DBE07A /* AppDelegate.m in Sources */,
+				B1C44F251CB9EA9500F16DB1 /* FYTableViewController.m in Sources */,
+				B1C44F281CB9EAFA00F16DB1 /* FYTableViewCell.m in Sources */,
+				B1C44F331CB9EB3F00F16DB1 /* ALView+PureLayout.m in Sources */,
+				B1C44F341CB9EB3F00F16DB1 /* NSArray+PureLayout.m in Sources */,
+				B11905DA1CB9E9AA00DBE07A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B11905E11CB9E9AA00DBE07A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B11905E21CB9E9AA00DBE07A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B11905E61CB9E9AA00DBE07A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B11905E71CB9E9AA00DBE07A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B11905EA1CB9E9AA00DBE07A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B11905EB1CB9E9AA00DBE07A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B11905ED1CB9E9AA00DBE07A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "自定义cell上滑动删除按钮/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ChinaPan.---cell-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B11905EE1CB9E9AA00DBE07A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "自定义cell上滑动删除按钮/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ChinaPan.---cell-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B11905D01CB9E9A900DBE07A /* Build configuration list for PBXProject "自定义cell上滑动删除按钮" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B11905EA1CB9E9AA00DBE07A /* Debug */,
+				B11905EB1CB9E9AA00DBE07A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B11905EC1CB9E9AA00DBE07A /* Build configuration list for PBXNativeTarget "自定义cell上滑动删除按钮" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B11905ED1CB9E9AA00DBE07A /* Debug */,
+				B11905EE1CB9E9AA00DBE07A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B11905CD1CB9E9A900DBE07A /* Project object */;
+}
